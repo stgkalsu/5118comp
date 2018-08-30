@@ -33,6 +33,7 @@ public class ConverterBean implements Serializable {
              //Stop execution of function
              return;
         }
+        
         //Check if both values are not > 0 - don't know what to convert
         if(gb > 0 && mb > 0){
             //Return with faces error msg
